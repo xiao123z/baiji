@@ -1,0 +1,31 @@
+[
+    {
+        "name":"药师博客",
+        "left":[
+"http://127.0.0.1/demo/client/src/image/ys1.png",
+"http://127.0.0.1/demo/client/src/image/ys2.png",
+"http://127.0.0.1/demo/client/src/image/ys3.png",
+"http://127.0.0.1/demo/client/src/image/ys4.png",
+"http://127.0.0.1/demo/client/src/image/ys5.png",
+"http://127.0.0.1/demo/client/src/image/ys6.png",
+"http://127.0.0.1/demo/client/src/image/ys7.png",
+"http://127.0.0.1/demo/client/src/image/ys8.png",
+"http://127.0.0.1/demo/client/src/image/ys9.png",
+"http://127.0.0.1/demo/client/src/image/ys10.png",
+"http://127.0.0.1/demo/client/src/image/ys11.png",
+"http://127.0.0.1/demo/client/src/image/ys12.png",
+"http://127.0.0.1/demo/client/src/image/ys13.png"
+ ],
+ "right":["肿瘤科","医疗器械","营养消化科","妇儿科","泌尿生殖科","心脑血管科","糖尿病科"
+ ],
+ "pic":[
+    "http://127.0.0.1/demo/client/src/image/bo1.png",
+    "http://127.0.0.1/demo/client/src/image/bo2.png",
+    "http://127.0.0.1/demo/client/src/image/bo3.png",
+    "http://127.0.0.1/demo/client/src/image/bo4.png",
+    "http://127.0.0.1/demo/client/src/image/bo5.png",
+    "http://127.0.0.1/demo/client/src/image/bo6.png",
+    "http://127.0.0.1/demo/client/src/image/bo7.png"
+ ]
+    }
+]

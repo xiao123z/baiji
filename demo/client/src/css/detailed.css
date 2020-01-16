@@ -1,0 +1,261 @@
+.ceng{
+    width: 1210px;
+    height: 754px;
+    background: #fff;
+}
+.v7_rxcrumb{
+    background: #fff;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+.box{
+    width: 1210px; 
+    height: 595px;
+    margin-top: 10px;
+    background: #fff;
+}
+.box .leftr{
+    width: 390px;
+    height:580px;
+    float: left;
+    background: #fff;
+
+}
+.box .rightr{
+    width: 820px;
+    height:580px;
+    float: left;
+    background: #fff;
+
+}
+.zuo{
+    width: 531px;
+    height: 481px;
+    background: #fff;
+    float: left;
+    position: relative;
+    padding: 20px 0px 40px 26px;
+}
+.youm{
+    width: 227px;
+    height: 523px;
+    float: left;
+    /* padding-top: 18px; */
+    padding: 18px;
+    background: #fff;
+}
+.youm li{
+    width: 60px;
+    height: 23px;
+    float: left;
+    line-height: 23px;
+    margin-bottom: 4px;
+    /* background: #fff; */
+    padding: 0px 7.5px;
+}
+.youm .csu{
+    background: #7ebcff;
+}
+.youm img{
+    width: 209px;
+}
+.allstore{
+        height: 36px;
+        line-height: 36px;
+        border-bottom: 1px solid #e6e6e6;
+        margin-bottom: 15px;
+        font-size: 14px;
+        font-family: Microsoft yahei;
+        color: #101010;
+        padding-bottom: 0px;
+        margin-top: -5px;
+}
+.rightr .zuo h1{
+    width: 296px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.rightr .zuo h1 s{
+    display: inline-block;
+    background-image: url(https://imgcdn.baiji.com.cn/bj_img/kdlphicon.png);
+    background-repeat: no-repeat;
+    background-position: -111px -252px;
+    width: 42px;
+    margin-right: 5px;
+    height: 25px;
+}
+
+.img-list img{
+    width: 60px;
+ position: relative;
+    height: 60px;
+}
+.img-list .sf{
+    border: 1px solid red;
+}
+.img img {
+    width: 389px;
+    height: 389px;
+}
+.img-list ul{
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.img-list li{
+    float: left;
+}
+.img{
+    position: relative;
+}
+.max-img{
+    width: 389px;
+    height: 389px;
+    /* background: red; */
+    position: absolute;
+    left: 471px;
+    top: 367px;
+    z-index: 999;
+    display: none;
+    overflow: hidden;
+}
+.max-img img{
+    width: 772px;
+    height: 772px;
+position: absolute;
+}
+.img .mask{
+    width: 193px;
+    height: 193px;
+    top: 0;
+    left: 0;
+opacity: 0.5;
+    display: none;
+    background: #cccccc;
+    position: absolute;
+}
+.nr {
+    position: absolute;
+    top: 296px;
+    left: 83px;
+    padding: 5px;
+    width: 321px;
+    height: 176px;
+    display: none;
+    background: #fff;
+}
+.zuo .srs{
+    display: block;
+}
+.nr li{
+    width: 61px;
+    height: 23px;
+       float: left;
+       margin: 1px;
+       color: #000;
+       background: #f7f7f7;
+    /* border: 1px solid red; */
+}
+.nr .gf{
+    background:#ff7e6f;
+}
+.img-list li{
+    width: 60px;
+    height: 60px;
+       float: left;
+       margin-left: 1px;
+    border: 1px solid #fff;
+}
+.v6_price {
+    min-height: 48px;
+    line-height: 48px;
+    background: url(https://imgcdn.baiji.com.cn/images/pricebg.jpg) left top no-repeat #fef9f6;
+    margin-top: 15px;
+    position: relative;
+    font-family: 'Microsoft yahei';
+}
+.v6_price .leflable, .v6_proactivity .leflable {
+    width: 60px;
+    line-height: 18px;
+    margin-top: 15px;
+    height: 18px;
+    float: left;
+    padding-left: 10px;
+    font-family: 'Microsoft yahei';
+}
+.v6_price .rigpric {
+    min-height: 48px;
+    float: left;
+    color: #f54343;
+    font-weight: bold;
+    font-size: 28px;
+    width: 420px;
+}
+.summary, .summary li {
+    display: block;
+    font-size: 12px;
+    color: #666666;
+    font-family: Arial,Verdana,'宋体';
+}
+.summary li.mar_pri {
+    line-height: 18px;
+    padding: 4px 0;
+}
+.summary li .dt {
+    width: 68px;
+    float: left;
+    color: #9b9b9b;
+}
+.summary li .dd {
+    width: 430px;
+    min-height: 15px;
+    float: left;
+    margin-left: 5px;
+}
+.chocity1223 {
+    width: 95px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    float: left;
+    border: 1px solid #cccccc;
+    position: relative;
+    padding-right: 10px;
+    float: left;
+    cursor: pointer;
+    color: #444444;
+    font-family: '宋体' !important;
+}
+.bva a{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ff5c4d;
+    display: block;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 134px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.bva span{
+    display: inline-block;
+    width: 24px;
+    float: left;
+    height: 40px;
+    color: #878787;
+    margin-left: 310px;
+    margin-top: -29px;
+}
+.img-list li .asd{
+    border: 1px solid red;
+}
+/* $(this).addClass("asd").siblings().removeClass("asd") */
+.img-list li img:hover{
+    border: 1px solid red;
+}

@@ -1,0 +1,18 @@
+[
+
+    { 
+        "itt":"https://imgcdn.baiji.com.cn/data/afficheimg/1545964995178555743.jpg",
+        "ti":[   
+            "https://imgcdn.baiji.com.cn/data/afficheimg/1576653665450662222.jpg",
+            "https://imgcdn.baiji.com.cn/data/afficheimg/1545965282256706344.jpg",
+            "https://imgcdn.baiji.com.cn/data/afficheimg/1546043301107734634.jpg"],
+            
+    "tyle":[ "推荐产品","热门专题","友情链接"],
+      "pic":[
+          "../image/a.png",
+          "../image/b.png",
+          "../image/c.png"
+        ]
+}
+
+]

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 100%;
+    height: 460px;
+/* background: #FEDEC5; */
+}
+
+li {
+
+    list-style: none;
+}
+
+.demo {
+    width: 1349px;
+    height: 460px;
+    /* margin: auto; */
+    /* background: red; */
+    position: relative;
+    overflow: hidden;
+}
+.pic li:nth-of-type(1){
+    background: rgb(254, 222, 197)
+}
+.pic li:nth-of-type(2){
+    background: rgb(47, 85, 158)
+}
+.pic li:nth-of-type(3){
+    background: rgb(218, 219, 214)
+}
+.pic li:nth-of-type(4){
+    background: rgb(218, 219, 214)
+}
+.pic li:nth-of-type(5){
+    background: rgb(6, 129, 127)
+}
+.pic li:nth-of-type(6){
+    background: rgb(229, 247, 255)
+}
+.pic li:nth-of-type(7){
+    background: rgb(79, 130, 255)
+}
+.pic li {
+       width: 1349px;
+    float: left;
+    height: 460px;
+}
+
+.pic li img {
+   margin-left: 193px;
+    height: 460px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    font-size: 50px;
+    width: 50px;
+    height: 100px;
+    background: #ccc;
+    line-height: 100px;
+    color: #ffffff;
+    text-align: center;
+    top: 183px;
+    display: none;
+    left: 193px;
+}
+
+.next {
+    left: 981px;
+}
+
+.slide {
+    position: absolute;
+    bottom: 5px;
+    left: 480px;
+
+}
+
+.pic {
+    position: absolute;
+    /* width: 10000px; */
+    height: 460px;
+    left: 0;
+    top: 0;
+    /* background: #000; */
+}
+
+
+
+.slide li {
+    width: 10px;
+    height: 10px;
+   border: 2px solid #ccc;
+    list-style: none;
+    border-radius: 50%;
+    float: left;
+  margin-top: 10px;
+    margin-left: 5px;
+}
+
+.slide .sb {
+    background: red;
+}
+.br{
+    position: absolute;
+    width: 200px;
+    right: 50px;
+    height: 430px;
+    z-index: 999;
+    /* background: red; */
+}
+.topT{
+    color: black;
+    line-height:37px;
+width: 200px;
+height: 37px;
+border-bottom: 1px #ccc solid;
+}
+.toptt{
+    width: 200px;
+
+    height: 242px;
+    background: #ffffff;
+}
+.br .toptt .bbc{
+    display: block;
+}
+.toptt img{
+    display: none;
+    margin-top: 5px;
+}
+.prevR , .nextR{
+width: 16px;
+height: 16px;
+display: inline-block;
+border-radius: 50%;
+background: #ccc;
+font-size: 12px;
+color: #ffffff;
+text-align: center;
+margin-left: 50px;
+}

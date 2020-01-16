@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="shortcut icon" href="https://www.baiji.com.cn/favicon.ico" />
+    <script src="../lib/jquery-3.4.1.js"></script>
+    <script src="../lib/car.js"></script>
+    <link rel="stylesheet" href="../css/common_vg.css">
+    <link rel="stylesheet" href="../css/homepage2018.css">
+    <link rel="stylesheet" href="../css/car.css">
+</head>
+
+<body>
+    <div class="sph_topbar">
+        <div class="wid1210">
+            <div class="barlef">
+                <div class="barcity">
+                    <s class="location"></s>广州<i></i>
+                </div>
+                <div class="sph_topstore"><a href="//www.baiji.com.cn/baiji.html#chainstore" target="_blank"
+                        rel="nofollow">全国专科连锁直营门店</a></div>
+                <div class="clear"></div>
+            </div>
+            <div class="barrig">
+                <a href="./login.html" target="_blank" class="reglog" rel="nofollow">请登录</a>
+                <a href="./register.html" target="_blank" class="reglog sph_red" rel="nofollow">免费注册</a>
+                <a href="./car.html" target="_blank" class="cart" rel="nofollow"><s class="carticon"></s>购物车<span
+                        id="wwrr">0</span>件</a>
+                <span class="sphuser">
+                    我的康德乐<s class="topbara"></s>
+                    <div class="barsec kdl mark1811">
+                        <h3>我的康德乐<s></s></h3>
+                        <ul>
+                            <li><a href="http://www.baiji.com.cn/user-order_list.html" target="_blank"
+                                    rel="nofollow">我的订单</a></li>
+                            <li><a href="http://www.baiji.com.cn/user-collection_list.html" target="_blank"
+                                    rel="nofollow">我的收藏</a></li>
+                            <li><a href="http://www.baiji.com.cn/user-address_list.html" target="_blank"
+                                    rel="nofollow">收货地址</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </span>
+                <span class="sphuser">
+                    客户服务<s class="topbara"></s>
+                    <div class="barsec sever mark1811">
+                        <h3>客户服务<s></s></h3>
+                        <ul>
+                            <li><a href="https://www.baiji.com.cn/article-38494.html" target="_blank"
+                                    rel="nofollow">帮助中心</a></li>
+                            <li><a href="https://www.baiji.com.cn/baiji.html#chainstore" target="_blank"
+                                    rel="nofollow">全国分店</a></li>
+                            <li><a href="https://www.baiji.com.cn/baiji_suggest.php" target="_blank"
+                                    rel="nofollow">投诉建议</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </span>
+                <span class="topbarnav">
+                    <s class="nav"></s>网站导航<s class="topbara"></s>
+                    <div class="barsec side mark1811">
+                        <h3><s class="nav"></s>网站导航<s></s></h3>
+                        <ul>
+                            <li><a href="http://www.baiji.com.cn/allclass.html" target="_blank">药品类目</a></li>
+                            <li><a href="http://www.baiji.com.cn/allclass.html" target="_blank">查找药品</a></li>
+                            <li><a href="http://www.baiji.com.cn/baiji.html#chainstore" target="_blank">门店查询</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </span>
+                <span class="topbarnav"><s class="phone"></s>手机版<s class="topbara"></s>
+                    <div class="kdlmcode mark1811"><img src="https://imgcdn.baiji.com.cn/bj_img/index_v4/wechat.png">
+                    </div>
+                </span>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="loto">
+        <img src="https://imgcdn.baiji.com.cn/bj_img/logo.jpg" alt="">
+        <div class="gc">
+            <ul>
+                <li><span>1</span>
+                    <div>1.我的购物车</div>
+                </li>
+                <li><span>2</span>
+                    <div>2.填写核对订单信息</div>
+                </li>
+                <li><span>3</span>
+                    <div>3.成功提交订单</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="gwc">
+        <div class="car">
+            <div class="car_t">
+                <ul>
+                    <li><input type="checkbox" name="" class="check">&nbsp;&nbsp; &nbsp; 全选</li>
+                    <li>商品名称</li>
+                    <li>单价（元）</li>
+                    <li>数量</li>
+                    <li>优惠金额</li>
+                    <li>小计（元）</li>
+                    <li>操作</li>
+                </ul>
+            </div>
+            <div class="nerit">
+                <div class="bbrw_l">
+                </div>
+
+                <div class="qewwr">你的购物车还是空的，<a href="./list.html">去购物 &gt;</a></div>
+            </div>
+            <div class="car_b">
+                <div class="car_b_z">
+                    <ul>
+
+                        <li><input type="checkbox" name="" id="" class="check">&nbsp;&nbsp; &nbsp; 全选</li>
+                        <li><a id="quanbu" style="cursor: pointer;">删除选中商品</a></li>
+                        <li>已选中<span id="qpq">0</span>件</li>
+                    </ul>
+                </div>
+                <div class="car_b_y">
+                    <div class="car_b_y_t">
+                        <p>总价：<span style="font-size: 16px;color: #E2231A;">￥</span>
+                            <span style="font-size: 16px;color: #E2231A;" id="qqqq"></span>
+                        </p>
+                        <p>促销：<span>0</span></p>
+
+                    </div>
+                    <button>去结算</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="jix"><a href="./list.html">继续购买</a></div>
+        <div class="xugoumai">您可能还需要购买</div>
+        <div class="zuixia">
+            <ul>
+                <li><img src="https://imgcdn.baiji.com.cn/images/201612/goods_img/14772_G_1480899485695.jpg" alt="">
+                    <p>云南白药气雾剂</p>
+                    <p>￥50.00</p>
+                    <button>加入购物车</button>
+                </li>
+                <li><img src="https://imgcdn.baiji.com.cn/images/202001/goods_img/16592_G_1578647864244.jpg" alt="">
+                    <p>云南白药气雾剂</p>
+                    <p>￥50.00</p>
+                    <button>加入购物车</button>
+                </li>
+                <li><img src="https://imgcdn.baiji.com.cn/images/201808/goods_img/6225_G_1534903977665.jpg" alt="">
+                    <p>云南白药气雾剂</p>
+                    <p>￥50.00</p>
+                    <button>加入购物车</button>
+                </li>
+                <li><img src="https://imgcdn.baiji.com.cn/images/201808/goods_img/14459_G_1534839957575.jpg" alt="">
+                    <p>云南白药气雾剂</p>
+                    <p>￥50.00</p>
+                    <button>加入购物车</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+<script>
+    $(".footer").load("./footer.html")
+    $.ajax({
+        type: "get",
+        url: "http://127.0.0.1/demo/server/car2.php",
+        dataType: "json",
+        success: function (response) {
+            let m = new mess(response)
+            m.init()
+
+            $(".bbrw_l .bbrw ul li").on("click", "#shan", function () {
+
+                let cont = $(this).parent().parent().attr("class");
+                $.ajax({
+                    type: "get",
+                    url: "http://127.0.0.1/demo/server/delete.php",
+                    data: `cont=${cont}`,
+                    dataType: "json",
+                    success: function (response) {
+                        console.log(response);
+
+                    }
+
+                });
+                window.location.reload()
+            });
+            $(".check").click(function () {
+                $(".bbrw .input").click()
+                var a = $(".input:checked").length;
+                $("#qpq").text(a)
+            })
+
+
+            $(".car_b_y button").click(function () {
+                if (!$(".bbrw .input").is(":checked")) {
+            alert("请勾选商品");
+            return;
+             }
+            let p= $("#qqqq").text()
+              var r = confirm("总共需支付" +p+ "是否购买?");
+                if (r == true) {
+                 setTimeout(function(){
+                      alert("购买成功")
+                 },3000)
+                }
+                else {
+                    setTimeout(function(){
+                        alert("购买失败")
+                 },3000)
+                    
+                }
+
+            })
+
+
+
+
+
+
+
+
+
+            $("#quanbu").click(function () {
+                $(".bbrw_l .bbrw").each(function () {
+                    if ($(this).find(".input").prop("checked")) {
+                        $(this).find("#shan").click();
+                        location.reload()
+                        opener.location.reload()
+                    }
+                });
+
+            })
+
+            //检查checked是否为选中  若是选中  获取当前选中商品的价格  加给总价   再被取消选中 再选择当前商品价格  总价减去
+            $(".bbrw_l .bbrw ul li").on("click", ".input", function () {
+                if ($(this).prop('checked')) {
+
+                    let test = $(this).parent().parent().children().children("#ddee").text()
+                    $(this).parent().parent().parent().addClass("checked")
+                    let total = $("#qqqq").text()
+                    $("#qqqq").text(total * 1 + test * 1);
+                    var a = $(".input:checked").length;
+                    $("#qpq").text(a)
+                } else {
+                    let test = $(this).parent().parent().children().children("#ddee").text()
+                    let total = $("#qqqq").text()
+                    $(this).parent().parent().parent().removeClass("checked");
+                    $("#qqqq").text(total * 1 - test * 1);
+                    var a = $(".input:checked").length;
+                    $("#qpq").text(a)
+                }
+
+            })
+            $(".bbrw_l .bbrw ul li").on("click", "#reduce", function () {
+                $(this).next("input[type=text]")[0].value--;
+                if ($(this).next("input[type=text]")[0].value < 1) {
+                    $(this).next("input[type=text]")[0].value = 1;
+                }
+                var pice = $(this).parent().parent().children().children("#eee").text()
+                var a = $(this).parent().parent().children().children("#ddee").text() * 1
+                if (a == pice) {
+                    alert("数量最少只能为一")
+                    return
+                }
+                $(this).parent().parent().children().children("#ddee").html(a - pice * 1)
+                console.log($(this).parent().parent().children().children(".input"));
+
+                if ($(this).parent().parent().children().children(".input").prop("checked")) {
+                    let test = $(this).parent().parent().children().children("#eee").text()
+                    let total = $("#qqqq").text()
+                    $("#qqqq").text(total * 1 - test * 1)
+                }
+            })
+
+            $(".bbrw_l .bbrw ul li").on("click", "#increase", function () {
+                $(this).prev("input[type=text]")[0].value++;
+                var pice = $(this).parent().parent().children().children("#eee").text()
+                var a = $(this).parent().parent().children().children("#ddee").text() * 1
+                var b = $(this).prev("input[type=text]")[0].value;
+
+                $(this).parent().parent().children().children("#ddee").text(a + pice * 1)
+                if ($(this).parent().parent().children().children(".input").prop("checked")) {
+                    let test = $(this).parent().parent().children().children("#eee").text()
+                    let total = $("#qqqq").text()
+                    $("#qqqq").text(total * 1 + test * 1)
+                }
+            })
+
+
+        }
+    });
+
+    $.ajax({
+        type: "get",
+        url: "http://127.0.0.1/demo/server/car1.php",
+        dataType: "json",
+        success: function (response) {
+            $("#wwrr").text(response.count)
+            if (response.count == 1) {
+                $(".qewwr").css("display", "none")
+            } else {
+                $(".qewwr").css("display", "block")
+            }
+        }
+    });
+
+</script>
+
+</html>

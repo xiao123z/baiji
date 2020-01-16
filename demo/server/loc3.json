@@ -1,0 +1,178 @@
+[
+    {
+        "name":"3F 常备用药",
+        "img":"https://imgcdn.baiji.com.cn/data/afficheimg/1553069509518853671.jpg",
+        "to":["呼吸系统","滋补用药","消化系统","感冒发热"], 
+        "tu":[
+            [
+            {
+                "img":"https://imgcdn.baiji.com.cn/images/201711/goods_img/6575_G_1510881482295.jpg",
+              "type":"三九感冒颗粒 10g*9袋",
+                "pice":"￥13.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201703/goods_img/15006_G_1490077846162.jpg",
+              "type":"藿香正气丸(浓缩丸) 200丸",
+                "pice":"￥15.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201411/goods_img/12830_G_1416365520435.jpg",
+              "type":"通宣理肺丸 塑料皮6g*10丸",
+                "pice":"￥12.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201808/goods_img/5797_G_1534838442263.jpg",
+              "type":"科达琳 12片",
+                "pice":"￥25.50"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201307/goods_img/5825_G_1374806704551.jpg",
+              "type":"加合百服宁 10片",
+                "pice":"￥13.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201711/goods_img/6117_G_1510630728553.jpg",
+              "type":"复方氨酚烷胺胶囊 12粒",
+            "pice":"￥12.00"
+            }
+        ], [
+            {
+                "img":"https://imgcdn.baiji.com.cn/images/201712/goods_img/15625_G_1512968619689.jpg",
+              "type":"四磨汤口服液 10ml*8支",
+                "pice":"￥25.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201905/goods_img/6444_G_1558403990303.jpg",
+              "type":"保济丸 3.7g*20瓶",
+                "pice":"￥11.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201307/goods_img/6512_G_1374819516197.jpg",
+              "type":"正露丸 0.22g*100粒",
+                "pice":"￥46.50"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201308/goods_img/10304_G_1375424556234.jpg",
+              "type":"复方氢溴酸东莨菪碱贴膏",
+                "pice":"￥9.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201702/goods_img/14986_G_1487236883779.jpg",
+              "type":"大黄通便片 0.5g*12片",
+                "pice":"￥32.00"
+            }
+        
+        ], [
+            {
+                "img":"https://imgcdn.baiji.com.cn/images/201711/goods_img/14403_G_1510626433136.jpg",
+              "type":"谷维素片 10mg*100片",
+                "pice":"￥16.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201903/goods_img/15010_G_1553481539736.jpg",
+              "type":"六味地黄丸（OTC） 120粒(浓缩",
+                "pice":"￥16.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201903/goods_img/15216_G_1553241335707.jpg",
+              "type":"心宝丸 60mg*100丸",
+                "pice":"￥58.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201509/goods_img/5683_G_1441071081430.jpg",
+              "type":"东阿阿胶 250g",
+                "pice":"￥1350.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201703/goods_img/7565_G_1490074506440.jpg",
+              "type":"丹七片 0.3g*48片(糖衣片)",
+                "pice":"￥20.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201811/goods_img/9586_G_1542180572095.jpg",
+              "type":"福牌阿胶 250g(铁盒装)",
+                "pice":" ￥580.00"
+            }
+        ], [
+            {
+                "img":"https://imgcdn.baiji.com.cn/images/201709/goods_img/7479_G_1504511762579.jpg",
+              "type":"立复汀 10ml:5mg",
+                "pice":"￥37.20"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201308/goods_img/6424_G_1376270765937.jpg",
+              "type":"急支糖浆 200ml",
+                "pice":"￥28.80"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201907/goods_img/7480_G_1563760514396.jpg",
+              "type":"内舒拿 50μg*140揿",
+                "pice":"￥119.00"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201308/goods_img/6548_G_1376271006046.jpg",
+              "type":"蛇胆川贝枇杷膏 138g",
+                "pice":"￥27.80"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201403/goods_img/6550_G_1395713170441.jpg",
+              "type":"治咳川贝枇杷露 150ml",
+                "pice":"￥19.50"
+            }, {
+                "img":"https://imgcdn.baiji.com.cn/images/201401/goods_img/7546_G_1388735671071.jpg",
+              "type":"西瓜霜清咽含片 1.8g*16片",
+                "pice":"￥10.00"
+            }
+        ]
+        ],
+        "tt":[
+            
+               [{
+                    "img":"https://imgcdn.baiji.com.cn/images/201708/goods_img/7483_G_1503993254817.jpg",
+                    "q":"博利康尼 2ml:5mg*20支",
+                    "z":"￥148.00"
+                }],
+                [{
+                    "img":"https://imgcdn.baiji.com.cn/images/201806/goods_img/15852_G_1529572200195.jpg", 
+                    "q":"健安喜北欧蓝莓咀嚼糖 15g(0.5g*30片)",
+                    "z":"￥80.00" 
+                
+                }],
+                [{
+                    "img":"https://imgcdn.baiji.com.cn/images/201905/goods_img/6537_G_1558403859106.jpg", 
+                    "q":"保济口服液 10ml*10支",
+                    "z":"￥20.00"
+                }],
+                [{
+                    "img":"https://imgcdn.baiji.com.cn/images/201807/goods_img/6330_G_1530853718524.jpg", 
+                    "q":"加味藿香正气丸（浓缩丸） 3g*10袋",
+                    "z":"￥8.00"
+                }]
+               
+        ],
+        "xia":[
+            [
+              {
+             "pp":[
+               "启尔畅甲","磺司特颗粒","昂润 比斯海乐","信必可都保","顺尔宁","普米克令舒","思力华","舒利迭"]
+               }
+       ]
+       ,
+       [{
+           "pp":[
+            "福牌阿胶","东阿阿胶","龙牡壮骨颗粒","鸿茅药酒","海狗丸","六味地黄丸","汤臣倍健","活力苏口服液"]
+       }]
+       ,
+       [{
+           "pp":[
+            "莎尔福","消脱止-M","耐信","柏西","艾迪莎","枸橼酸钾颗粒","地奥司明片"]
+       }] ,
+       [{
+           "pp":[
+            "三九感冒颗粒","小柴胡颗粒","宣肺止嗽合剂","抗病毒口服液","可威","达菲","玉屏风颗粒","美林"]
+       }]
+    ],
+        "zz":[
+            [{
+                "zx":"https://imgcdn.baiji.com.cn/images/201304/goods_img/6545_G_1365733473924.jpg",
+                "jj":"强力枇杷露 120ml",
+                "jx":"￥10.00"
+           }],
+           [{
+               "zx":"https://imgcdn.baiji.com.cn/images/201806/goods_img/15854_G_1529572552607.jpg",
+               "jj":"健安喜玛咖胶囊",
+               "jx":"￥249.00"
+           }],  [{
+            "zx":"https://imgcdn.baiji.com.cn/images/201905/goods_img/7529_G_1558404246207.jpg",
+            "jj":"健胃消食片 0.8g*32片",
+            "jx":"￥10.50"
+        }],  [{
+            "zx":"https://imgcdn.baiji.com.cn/images/pic7/300/251109_1_2.jpg",
+            "jj":"夏桑菊颗粒 10g*20袋",
+            "jx":"￥22.00"
+        }]
+    ]
+    }
+]
